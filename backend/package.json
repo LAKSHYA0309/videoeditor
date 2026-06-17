@@ -2,6 +2,7 @@
   "name": "video-editor-backend",
   "version": "1.0.0",
   "type": "module",
+  "packageManager": "pnpm@11.7.0",
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src/index.js"
