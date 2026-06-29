@@ -10,7 +10,8 @@ import mediaRoutes from './routes/media.js'
 import effectsRoutes from './routes/effects.js'
 import exportRoutes from './routes/export.js'
 
-dotenv.config()
+dotenv.config({ path: path.resolve(process.cwd(), '../.env') })
+dotenv.config({ path: path.resolve(process.cwd(), '.env') })
 
 const app = express()
 const PORT = process.env.PORT || 5000
