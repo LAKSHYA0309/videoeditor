@@ -5,6 +5,7 @@ packages:
 allowBuilds:
   msw: true
   sharp: true
+  esbuild: true
   "@rolldown/binding-linux-x64-gnu": true
   "@img/sharp-libvips-linux-x64": true
   ffmpeg-static: true
